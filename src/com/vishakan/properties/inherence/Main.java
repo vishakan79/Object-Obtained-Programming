@@ -14,5 +14,6 @@ public class Main {
        // boxweight boxweightref = new box(2);
         // child class ref cannot access the parent class ref
         //but parent class access the child class
+        boxprice box = new boxprice(5,10,20);
     }
 }

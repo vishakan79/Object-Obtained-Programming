@@ -12,4 +12,9 @@ public class boxweight extends box {
         System.out.println(super.weight);
         this.weight=weight;
     }
+    boxweight(double side,double weight)
+    {
+        super(side);
+        this.weight=weight;
+    }
 }
